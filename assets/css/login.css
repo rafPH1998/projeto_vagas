@@ -1,0 +1,121 @@
+@import 'defaults.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size:13px;
+    margin:0;
+    padding-bottom:50px;
+    background-color: #343a40;
+    color: white !important;
+}
+
+.container {
+    max-width:1040px;
+    margin:auto;
+}
+
+form {
+    max-width:400px;
+    margin: auto;
+    background-color: #FFF;
+    border:1px solid #c9cacc;
+    border-radius:5px;
+    padding:20px;
+    margin-top:50px;
+}
+
+form label {
+    display: block; 
+}
+
+.label {
+    margin-top: 20px;
+}
+
+form input {
+    
+    display: block;
+}
+form .input {
+    font-size:15px;
+    height:40px;
+    width: 100%;
+    outline: 0;
+    border:1px solid #CCC;
+    background-color:#EEE;
+    border-radius:5px;
+    padding:15px;
+    margin-bottom:0px;
+}
+
+input:focus {
+    border-color: #4a76a8;
+}
+
+form .button {
+    border:0;
+    padding:10px 20px;
+    background-color:#4a76a8;
+    border-radius:10px;
+    color:#FFF;
+    font-size:15px;
+    margin-bottom:10px;
+    margin-top: -80px;
+    width: 200px;
+    cursor:pointer;
+    box-shadow:0px 0px 3px #999;
+    margin: auto;
+}
+
+.button-cadastro {
+    border:0;
+    padding:10px 10px;
+    background-color:#4a76a8;
+    border-radius:10px;
+    color:#FFF;
+    font-size:15px;
+    margin-top: 20px;
+    cursor:pointer;
+    width: 120px;
+    width: 200px;
+    box-shadow:0px 0px 3px #999;
+    margin: auto;
+}
+
+form .button:hover,
+.button-cadastro:hover  {
+    background-color:#477dbb;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    color:#4a76a8;
+}
+
+
+.p {
+    color: black;
+    margin-left: 5px;
+}
+
+.area-checkbox {
+    display: flex;    
+    margin-top: 10px;
+}
+
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+}
